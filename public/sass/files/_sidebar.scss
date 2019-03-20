@@ -1,0 +1,128 @@
+.sidebar {
+    background-color: #fff;
+    min-height: calc(100vh - 100px);
+    height: auto;
+    overflow: hidden;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 300px;
+
+    .sidebar-header {
+        padding: 0 15px;
+        line-height: 50px;
+        background-color: #ddd;
+        overflow: hidden;
+
+        >.count {
+            font-size: 14px;
+            color: #333;
+
+            strong {
+                color: #475e86;
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+
+    }
+
+    .sidebar-content {
+        padding: 0;
+
+        .nano {
+            width: 290px; 
+            height: calc( 100vh -  200px); 
+
+            .nano-content { padding: 7px; }
+            .nano-pane   { background: rgba(0,0,0,0.2); width: 7px; }
+            .nano-slider { background: rgba(0,0,0,0.4); }
+
+        }
+
+        .sidebar-row {
+            padding: 10px 0px;
+            border-bottom: 1px solid #ddd;
+            position: relative;
+            display: table;
+            width: 280px;
+
+            &:after {
+                content: "";
+                position: absolute;
+                left: 0;
+                height: 0;
+                width: 100%;
+                top: 101%;
+                border-bottom: 1px solid #fff;
+            }
+
+            &:last-child {
+                border: none;
+            }
+
+            .user-avatar {
+                width: 50px;
+                height: 50px;
+                float: left;
+                display: inline-block;
+                background-color: #555;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+            .event-details {
+                display: block;
+                font-size: 13px;
+                line-height: 15px;
+
+                > label, > var {
+                    display: inline-block;
+                    font-style: normal;
+                    font-weight: 500;
+                    color: #555;
+                    margin-right: 10px;
+                    position: relative;
+                }
+
+                > label, > var {
+                    color: #777;
+                    font-size: 11px;
+                }
+
+            }
+
+            > .event-need {
+                background-color: rgba(0,0,0,0.2);
+                color: #333;
+                display: block;
+                font-weight: 600;
+                font-style: normal;
+                margin-top: 5px;
+                padding: 5px;
+                position: relative;
+                text-align: center;
+
+                strong {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #14ab2c;
+                }
+            }
+
+            .author {
+                font-size: 11px;
+                color: #333;
+                display: inline-block;
+                margin-top: 6px;
+                line-height: 11px;
+            }
+
+            .author-star {
+                color: #dec504;
+                font-size: 12px;
+                margin-left: 10px;
+            }
+
+        }
+    }
+}

@@ -11,9 +11,8 @@
         <!-- Styles -->
         @yield('style')
 
-        <!-- Bootstrap -->
-        <link href="assets/bootstrap-4.2.1-dist/css/bootstrap.min.css" rel="stylesheet">
-        
+
+
         <!-- nanoScrollerJS -->
         <link href="assets/nanoScrollerJS/nanoscroller.css" rel="stylesheet">
 
@@ -24,7 +23,6 @@
         <link rel="stylesheet" type="text/css" href="css/app.css">
 
 
-
         <script>
             window.Laravel = {!! json_encode([
                               'csrfToken' => csrf_token(),
@@ -33,25 +31,23 @@
     </head>
     <body>
 
-        <header class="row mx-0 header">
+        <header class="header">
             @include('layouts.header')
         </header>
-        <div id="main" class="row mx-0 main">
+        <div id="main" class="main">
             @yield('content')
         </div>
-        <footer class="row mx-0 footer">
+        <footer class="footer">
             @include('layouts.footer')
         </footer>
 
         @yield('scripts')
 
         <!-- Website-->
-        <!--<script src="js/app.min.js"></script>-->
         <script src="assets/jquery/jquery-3.3.1.min.js"></script>
-        <script src="assets/bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js"></script>
         <script src="assets/nanoScrollerJS/nanoscroller.min.js"></script>
-        <script src="assets/fontawesome-free-5.6.3-web/js/fontawesome.min.js"></script>
-        <script src="js/app.js"></script>
+        <script src="assets/fontawesome-free-5.6.3-web/js/all.min.js"></script>
+        <script src="js/main.js"></script>
 
 
     </body>
