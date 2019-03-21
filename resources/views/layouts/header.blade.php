@@ -1,8 +1,10 @@
+
 <span class="logo">logo</span>
 
 <a href="#modal-new-event" class="new-event"><i class="fas fa-plus"></i></a>
 <a href="javascript:;" class="facebook">Contul meu</a>
-@include('modal.new-event.blade.php')
+
+@include('modal.new-event')
 
 
 <form action="" class="map-search">

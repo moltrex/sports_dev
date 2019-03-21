@@ -72,5 +72,5 @@
         </div>
 
     </div>
-    @include('modal/view-event.blade.php')
+    @include('modal/view-event')
 </div>

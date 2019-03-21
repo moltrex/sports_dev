@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ config('app.locale') }}">
     <head>
@@ -30,24 +31,26 @@
         </script>
     </head>
     <body>
-
+        
         <header class="header">
             @include('layouts.header')
         </header>
+        
         <div id="main" class="main">
+            @include('layouts.sidebar')
             @yield('content')
         </div>
         <footer class="footer">
             @include('layouts.footer')
         </footer>
-
+       
         @yield('scripts')
 
         <!-- Website-->
         <script src="assets/jquery/jquery-3.3.1.min.js"></script>
         <script src="assets/nanoScrollerJS/nanoscroller.min.js"></script>
         <script src="assets/fontawesome-free-5.6.3-web/js/all.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/app.js"></script>
 
 
     </body>
