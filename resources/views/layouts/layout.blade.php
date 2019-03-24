@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="assets/fontawesome-free-5.6.3-web/css/all.min.css">
 
         <!-- Site style -->
-        <link rel="stylesheet" type="text/css" href="css/app.css">
+        <link rel="stylesheet" type="text/css" href="{{ url('css/app.css') }}">
 
 
         <script>
