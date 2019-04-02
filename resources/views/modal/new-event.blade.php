@@ -8,11 +8,34 @@
         <!-- light modal body -->
         <div class="light-modal-body">
             <div class="event-field-wrap">
-                  <p>
-                   <span>Teren Sala Polivalenta</span>
-                   <span class="adress"><i class="fas fa-map-marker-alt"></i> Iasi, Strada Primaverii, nr.5 </span>
-                  </p>
+
+                <p>
+                    <span>Foloseste formularul de mai jos pentru a gasi un coechipier.</span>
+                </p>
+
                 <form action="">
+                    <p>
+                        <label for="">Locatie</label>
+                        <select name="" id="">
+                            <option value="">Iasi</option>
+                            <option value="">Iasi</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="">Locatie suplimentara</label>
+                        <select name="" id="">
+                            <option value="">Teren Tineretului</option>
+                            <option value="">Teren Strada Odrasla Veche</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="">Sport</label>
+                        <select name="" id="">
+                            <option value="">Fotbal</option>
+                            <option value="">Tenis de camp</option>
+                            <option value="">Tenis de masa</option>
+                        </select>
+                    </p>
                     <p>
                         <label for="">Jucator(i)</label>
                         <input type="number">
@@ -26,24 +49,28 @@
                         <input type="date">
                     </p>
                     <p>
+                        <label for="">Date suplimentare</label>
+                        <textarea name="" id="" cols="30" rows="5" placeholder="Ora, Pret, etc."></textarea>
+                    </p>
+                    <p>
                         <input type="submit" value="Trimite">
                     </p>
                 </form>
                 <p>
-                    
+
                     <span></span>
                 </p>
             </div>
 
-        <!-- Your content end-->
+            <!-- Your content end-->
         </div>
         <!-- light modal footer -->
-        
-           <div class="light-modal-footer">
-           <!--
-            <a href="#" class="light-modal-close-btn" aria-label="close">Close</a>
-            -->
+
+        <div class="light-modal-footer">
+            <!--
+<a href="#" class="light-modal-close-btn" aria-label="close">Close</a>
+-->
         </div>
-        
+
     </div>
 </div>

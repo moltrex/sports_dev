@@ -2,7 +2,7 @@
     <div class="light-modal-content animated zoomInUp">
         <!-- light modal header -->
         <div class="light-modal-header">
-            <h3 class="light-modal-heading">Completeaza-ti echipa!</h3>
+            <h3 class="light-modal-heading">Detalii eveniment!</h3>
             <a href="#" class="light-modal-close-icon" aria-label="close">&times;</a>
         </div>
         <!-- light modal body -->
@@ -16,13 +16,15 @@
 
             <div class="event-field-wrap">
                   <p>
-                   <span>Teren Sala Polivalenta</span>
+                   <span>Teren Sala Polivalenta - <b>tenis de camp</b></span>
                    <span class="adress"><i class="fas fa-map-marker-alt"></i> Iasi, Strada Primaverii, nr.5 </span>
+                   <span>Meciu incepe la ora 18:00 ... iar pretu e de 25 lei, totusi sa fii oleaca bun daca vrei sa vii :)</span>
                   </p>
                 <form action="">
                    <div class="author-modal-wrap">
                         <span class="user-avatar"></span>
                         <span class="author">Alexandrescu Vasile </span>
+                        <br>
                         <span class="author-star">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>

@@ -1,7 +1,7 @@
 #modal-view-event {
 
     .author-modal-wrap {
-        line-height: 50px;
+        line-height: normal;
         overflow: hidden;
         position: relative;
         text-align: left;
@@ -52,12 +52,12 @@
             color: #333;
             font-weight: 600;
             display: inline-block;
+            margin-top: 10px;
         }
 
         .author-star {
             color: #dec504;
             font-size: 12px;
-            margin-left: 10px;
         }
     }
 

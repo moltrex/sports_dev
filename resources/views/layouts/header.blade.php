@@ -15,5 +15,5 @@
         <span>Brasov</span>
         <label>...</label>
     </div>
-    <a href="javascript:;" class="submit-search"><i class="fas fa-search"></i></a>
+    {{--<a href="javascript:;" class="submit-search"><i class="fas fa-search"></i></a>--}}
 </form>
