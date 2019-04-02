@@ -4,8 +4,6 @@
 <a href="#modal-new-event" class="new-event"><i class="fas fa-plus"></i></a>
 <a href="javascript:;" class="facebook">Contul meu</a>
 
-@include('modal.new-event')
-
 
 <form action="" class="map-search">
     <input type="text" class="input-search" placeholder="Cauta oras!">

@@ -72,5 +72,4 @@
         </div>
 
     </div>
-    @include('modal/view-event')
 </div>

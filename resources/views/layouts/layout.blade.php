@@ -37,12 +37,13 @@
         </header>
         
         <div id="main" class="main">
-            @include('layouts.sidebar')
             @yield('content')
         </div>
         <footer class="footer">
             @include('layouts.footer')
         </footer>
+        
+        @include('modal.base-modals-containers')
        
         @yield('scripts')
 
