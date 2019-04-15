@@ -18,94 +18,9 @@
     }
 
 
-    .map-search {
-        display: inline-block;
-        margin-right: 25px;
-        position: relative;
-        line-height: 100px;
+    
 
-        @media (max-width: 800px) {
-            background-color: #eee;
-            display: block;
-            margin: 0;
-            padding: 10px;
-            line-height: 50px;
-            float: left;
-            position: absolute;
-            top: 100px;
-            width: 100%;
-        }
-
-        .input-search {
-            font-size: 18px;
-            font-weight: 600;
-            padding: 10px 25px;
-            border: 1px solid #ccc;
-            border-radius: 25px;
-            margin: 0 15px 0 0;
-            width: auto;
-
-            @media (max-width: 800px) {
-                margin: 0;
-                width: 100%;
-            }
-
-            &:focus {
-
-                &+.map-search-list {
-                    display: block;
-                }
-            }
-
-
-        }
-
-        .map-search-list {
-            background-color: #fff;
-            display: none;
-            left: 0;
-            line-height: normal;
-            text-align: left;
-            top: 100%;
-            position: absolute;
-            border: 1px solid #ddd;
-            width: 100%;
-
-            span {
-                border-bottom: 1px solid #ddd;
-                cursor: pointer;
-                display: block;
-                padding: 10px 25px;
-                font-size: 14px;
-                transition: ease-in .2s;
-
-                &:hover {
-                    background-color: #eee;
-                }
-            }
-
-            label {
-                display: block;
-                color: #999;
-                padding: 10px 25px;
-                pointer-events: none;
-            }
-
-        }
-
-        .submit-search {
-            display: none;
-            float: right;
-            color: #ccc;
-            font-size: 30px;
-
-            @media (max-width: 800px) {
-                display: inline-block;
-            }
-        }
-    }
-
-    .facebook {
+    .account {
         border-radius: 50px;
         padding: 10px 25px;
         float: right;

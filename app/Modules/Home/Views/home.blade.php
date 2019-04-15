@@ -8,10 +8,26 @@
 
 <div class="content event-wrap">
     <div class="event-title">
-        <span>Echipe ce au nevoie de coechipieri. <b>Fii tu acela!</b></span>
+        {{--<span>Echipe ce au nevoie de coechipieri. <b>Fii tu acela!</b></span>--}}
+        <form action="" class="map-search">
+            <input type="text" class="input-search" placeholder="Localitati dispponibile!">
+            
+            {{-- 
+            <div class="map-search-list">
+                <span data-value="Abrud">Abrud</span>
+                <span>Agnita</span>
+                <span>Aleșd</span>
+                <span>Amara</span>
+                <span>Brasov</span>
+                <label>...</label>
+            </div>
+            --}}
+            
+            {{--<a href="javascript:;" class="submit-search"><i class="fas fa-search"></i></a>--}}
+        </form>
     </div>
     <div class="event-content">
-        
+
 
 
         <a href="#modal-view-event" class="erow">
@@ -35,9 +51,9 @@
             </span>
             <em class="event-need"><label for=""><i class="fas fa-user-plus"></i></label> <strong>1 jucator</strong></em> 
         </a>
-        
-        
-        
+
+
+
         <a href="#modal-view-event" class="erow">
             <span class="user-avatar"></span>
             <span class="author">
@@ -59,14 +75,14 @@
             </span>
             <em class="event-need"><label for=""><i class="fas fa-user-plus"></i></label> <strong>1 jucator</strong></em> 
         </a>
-        
-        
-        
+
+
+
         <a href="#modal-view-event" class="erow">
             <span class="user-avatar"></span>
             <span class="author">
                 <label for="">
-                    Alexandrescu Vasile 
+                    Alexandrescu Vasile Octavian
                 </label>
                 <span class="author-star">
                     <i class="fas fa-star"></i>
@@ -83,10 +99,10 @@
             </span>
             <em class="event-need"><label for=""><i class="fas fa-user-plus"></i></label> <strong>1 jucator</strong></em> 
         </a>
-        
-        
-        
-        
+
+
+
+
 
 
     </div>

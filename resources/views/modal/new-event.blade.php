@@ -15,18 +15,15 @@
 
                 <form action="">
                     <p>
-                        <label for="">Locatie</label>
+                        <label for="">Localitate</label>
                         <select name="" id="">
                             <option value="">Iasi</option>
                             <option value="">Iasi</option>
                         </select>
                     </p>
                     <p>
-                        <label for="">Locatie suplimentara</label>
-                        <select name="" id="">
-                            <option value="">Teren Tineretului</option>
-                            <option value="">Teren Strada Odrasla Veche</option>
-                        </select>
+                        <label for="">Locatie</label>
+                        <input type="text" placeholder="Locatia sau teren specific">
                     </p>
                     <p>
                         <label for="">Sport</label>
