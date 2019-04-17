@@ -6,9 +6,61 @@
         display: inline-block;
         padding: 10px 25px;
         line-height: 15px;
-        margin: 32px auto;
+        margin: 15px auto;
         color: #475e86;
         background-color: transparent;
         font-size: 14px;
     }
+}
+
+.or-segment {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.auth-wrap .form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.auth-wrap .form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.auth-wrap .form button {
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.auth-wrap .form button:hover,.auth-wrap .form button:active,.auth-wrap .form button:focus {
+  background: #43A047;
+}
+.auth-wrap .form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.auth-wrap .form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.auth-wrap .form .register-form {
+  display: none;
 }
