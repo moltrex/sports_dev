@@ -10,20 +10,7 @@
     <div class="event-title">
         {{--<span>Echipe ce au nevoie de coechipieri. <b>Fii tu acela!</b></span>--}}
         <form action="" class="map-search">
-            <input type="text" class="input-search" placeholder="Localitati dispponibile!">
-            
-            {{-- 
-            <div class="map-search-list">
-                <span data-value="Abrud">Abrud</span>
-                <span>Agnita</span>
-                <span>Aleșd</span>
-                <span>Amara</span>
-                <span>Brasov</span>
-                <label>...</label>
-            </div>
-            --}}
-            
-            {{--<a href="javascript:;" class="submit-search"><i class="fas fa-search"></i></a>--}}
+            <input type="text" class="input-search" placeholder="Cautare...">
         </form>
     </div>
     <div class="event-content">

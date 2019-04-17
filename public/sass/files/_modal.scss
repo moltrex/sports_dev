@@ -44,7 +44,8 @@
 
 .light-modal-header {
     padding: 20px;
-    background: rgba(0, 0, 0, .2);
+    background: transparent;
+    border-bottom: 1px solid #ddd;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
@@ -70,7 +71,7 @@
 
 .light-modal-footer {
     padding: 20px;
-    background: rgba(0, 0, 0, .2);
+    background: #333;
     text-align: right;
     display: -ms-flexbox;
     display: flex;
